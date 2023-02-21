@@ -7,7 +7,7 @@
     <title>Eaducation</title>
 
     <!-- -----------------------------------------style sheet ---------------------------------------- -->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./style.css">
 
     <!--------------------------------------------google font------------------------------------------------>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,9 +15,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <!-- -----------------------------Swiper js ----------------------------- -->
-        <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
@@ -26,15 +24,14 @@
 <body>
 
     <!-- ==============================================NAVBAR=========================================== -->
-
     <nav>
         <div class="container nav__container">
-            <a href="index.html"><h4>ORGAPRACTICE</h4></a>
+            <a href="#"><h4>ORGAPRACTICE</h4></a>
             <ul class="nav__menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="course.html">Course</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#course">Course</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <button id="open-menu-btn"><ion-icon name="menu-outline"></ion-icon></button>
             <button id="close-menu-btn"><ion-icon name="close-outline"></ion-icon></button>
@@ -62,6 +59,52 @@
         </div>
     </header>
     <!------------------------------------------------- end of header------------------------------------------>
+
+
+
+    <!--============================= ACHIVMENT=========================== -->
+    
+    
+    
+    <section class="about_achivment"  id="about">
+        <div class="container about_achivment_container">
+            <div class="about_achivment_left">
+                <img src="../../image/u-achivment.png" alt="">
+            </div>
+            <div class="about_achivment_right">
+                <h1>Achivments</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eos incidunt culpa, ad odit labore quaerat.
+                    Ipsam aliquam a minus?</p>
+                <div class="achivments_cards">
+                    <article class="achivment_card">
+                        <span class="achivment_icon">X</span>
+                        <h3>450+</h3>
+                        <p>Courses</p>
+                    </article>
+                    <article class="achivment_card">
+                        <span class="achivment_icon">X</span>
+                        <h3>75500+</h3>
+                        <p>Student</p>
+                    </article>
+                    <article class="achivment_card">
+                        <span class="achivment_icon">X</span>
+                        <h3>27</h3>
+                        <p>Awards</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------------------------- end of achivments -------------------------------------- -->
+
+
+
+
+
+
+
+
+
 
 
 
@@ -94,7 +137,7 @@
 
     <!-- =======================================================courses======================================================== -->
 
-    <section class="courses">
+    <section class="courses" id="course">
         <h2>Our Popular Courses</h2>
         <div class="container course__container">
             <artical class="course">
@@ -230,55 +273,9 @@
                     </p>
                 </div>
             </article>
-
             <article class="testimonial swiper-slide">
                 <div class="avatar">
                     <img src="../../image/pic3.jpg" alt="">
-                </div>
-                <div class="testimonial_info">
-                    <h5>Asutosh sidhya</h5>
-                    <small>Student</small>
-                </div>
-                <div class="testimonial_body">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam inventore corrupti labore non perferendis in nesciunt?
-                    </p>
-                </div>
-            </article>
-
-            <article class="testimonial swiper-slide">
-                <div class="avatar">
-                    <img src="../../image/pic3.jpg" alt="">
-                </div>
-                <div class="testimonial_info">
-                    <h5>Asutosh sidhya</h5>
-                    <small>Student</small>
-                </div>
-                <div class="testimonial_body">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam inventore corrupti labore non perferendis in nesciunt?
-                    </p>
-                </div>
-            </article>
-
-            <article class="testimonial swiper-slide">
-                <div class="avatar">
-                    <img src="../../image/pic3.jpg" alt="">
-                </div>
-                <div class="testimonial_info">
-                    <h5>Asutosh sidhya</h5>
-                    <small>Student</small>
-                </div>
-                <div class="testimonial_body">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam inventore corrupti labore non perferendis in nesciunt?
-                    </p>
-                </div>
-            </article>
-
-            <article class="testimonial swiper-slide">
-                <div class="avatar">
-                    <img src="../../image/pic1.webp" alt="">
                 </div>
                 <div class="testimonial_info">
                     <h5>Asutosh sidhya</h5>
@@ -297,6 +294,57 @@
     <!-------------------------------------------------------- end of Testimonial ------------------------------------------------------ -->
 
 
+<!-- =================================CONTACT SECTION ================================= -->
+
+<section class="contact" id="contact">
+    <div class="container contact_container">
+        <aside class="contact_aside">
+            <div class="aside_image">
+                <img src="../../image/u-otp.png" alt="">
+            </div>
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor Officia similique iure deserunt incidunt, dolorem ipsa aperiam!</p>
+            <ul class="contact_details">
+                <li>
+                    <span class="info_icon">X</span>
+                    <h5>+91 9749571885</h5>
+                </li>
+                <li>
+                    <span class="info_icon">X</span>
+                    <h5>support@eaducation.com</h5>
+                </li>
+                <li>
+                    <span class="info_icon">X</span>
+                    <h5>335714512</h5>
+                </li>
+                <li>
+                    <span class="info_icon">X</span>
+                    <h5>Kolkata,wb</h5>
+                </li>
+            </ul>
+            <ul class="contact_social">
+                <li><a href="#">X</a></li>
+                <li><a href="#">X</a></li>
+                <li><a href="#">X</a></li>
+                <li><a href="#">X</a></li>
+            </ul>
+        </aside>
+
+        <form>
+            <div class="form_name">
+                <input type="text" name="firstname" placeholder="First Name" required>
+                <input type="text" name="lastname" placeholder="Last Name" required>
+            </div>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" required placeholder="Message"></textarea>
+            <button class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+</section>
+
+
+
+<!------------------------------------------- end of contact section ----------------------------------------- -->
 
 
 
@@ -314,10 +362,10 @@
             <div class="footer_2">
                 <h4>Links</h4>
                 <ul class="peremslinks">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="course.html">Course</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#course">Course</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
 
@@ -360,7 +408,7 @@
 
     <!-- swiper js  -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="../js/main.js"></script>
+    <script src="./main.js"></script>
     <script>
         // swiper
     var swiper = new Swiper(".mySwiper", {
